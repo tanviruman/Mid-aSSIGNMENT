@@ -17,17 +17,17 @@ public class Main
         for (int i = 0; i < p; i++)
 
         {
-            System.out.print("Enter pid: ");
+            System.out.print("Enter Patient Id: ");
             int pid = scanner.nextInt();
             scanner.nextLine();
 
-            System.out.print("Enter pname: ");
+            System.out.print("Enter Patient Name: ");
             String pname = scanner.nextLine();
 
-            System.out.print("Enter history: ");
+            System.out.print("Enter History: ");
             String history = scanner.nextLine();
 
-            System.out.print("Enter medicines: ");
+            System.out.print("Enter Medicines: ");
             String medicines = scanner.nextLine();
 
             patients[i] = new Patient(pid, pname, history);
