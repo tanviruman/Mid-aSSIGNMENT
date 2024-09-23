@@ -75,7 +75,7 @@ public class Queue
         else
 
         {
-            System.out.println("Queue is empty.");
+            System.out.println("Queue is empty");
         }
         System.out.println();
     }
