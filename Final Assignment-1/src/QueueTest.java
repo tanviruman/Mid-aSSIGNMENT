@@ -8,6 +8,7 @@ public class QueueTest {
         q.enqueue(7.88);
         q.enqueue(5.5);
         q.enqueue(1.1);
+        System.out.println();
         q.printElements();
         q.dequeue();
         q.printElements();
