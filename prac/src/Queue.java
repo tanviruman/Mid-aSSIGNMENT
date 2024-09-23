@@ -1,4 +1,4 @@
-class Queue1 {
+class Queue {
     public double[] queueElements;  // Public array to store the queue elements
     private int queueCapacity;  // Private variable to store the capacity of the queue
     private int lastIndex;  // Private variable to track the last index of the queue
@@ -45,4 +45,6 @@ class Queue1 {
             System.out.println("Queue is empty.");
         }
     }
+
+
 }
